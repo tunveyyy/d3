@@ -1,0 +1,11 @@
+# Continuous sample dataframe
+d = {'col1': [1, 7, 6, 4, 4, 8, 15], 'col2': ['1', '7', '6', '4', '4', '8', '15']}
+    df = pd.DataFrame(data=d)
+    calculate_threshold(df['col1'], df['col1'])
+
+# Check categorical or continuous
+for cname in column_names:
+        if(np.issubdtype(train_data[cname].dtype.name, np.integer)):
+            print(cname, " is continuous")
+        else:
+            print(cname, " is categorical")
