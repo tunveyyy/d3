@@ -1,3 +1,4 @@
+days,outlook,temperature,humidity,wind,label
 D1,Sunny,Hot,High,Weak,No
 D2,Sunny,Hot,High,Strong,No
 D3,Overcast,Hot,High,Weak,Yes
